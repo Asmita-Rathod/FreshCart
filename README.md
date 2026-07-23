@@ -84,11 +84,6 @@ FreshCart/
 
 ---
 
-## 📦 Product Details
-
-![Product Details](screenshots/product-details.png)
-
----
 
 ## ❤️ Wishlist
 
