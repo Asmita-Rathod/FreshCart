@@ -1,0 +1,134 @@
+.offer-section{
+
+    max-width:1200px;
+
+    margin:80px auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:30px;
+
+    padding:0 20px;
+
+}
+
+.offer-card{
+
+    border-radius:24px;
+
+    padding:40px;
+
+    color:white;
+
+    position:relative;
+
+    overflow:hidden;
+
+    min-height:240px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    transition:.35s;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+}
+
+.offer-card:hover{
+
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0,0,0,.12);
+
+}
+
+.orange{
+
+    background:linear-gradient(135deg,#ff7b39,#ffb347);
+
+}
+
+.purple{
+
+background:linear-gradient(135deg,#fff7d6,#ffe08a);
+    color:#222;
+}
+
+.offer-card h2{
+
+    font-size:34px;
+
+    margin-bottom:15px;
+
+}
+
+.offer-card p{
+
+    font-size:18px;
+
+    line-height:1.6;
+
+    max-width:330px;
+
+    margin-bottom:25px;
+
+}
+
+.offer-card button{
+
+    background:white;
+
+    color:#222;
+
+    border:none;
+
+    padding:14px 30px;
+
+    border-radius:30px;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.offer-card button:hover{
+
+    transform:scale(1.05);
+
+}
+
+.offer-card::after{
+
+    content:"🛒";
+
+    position:absolute;
+
+    right:30px;
+
+    bottom:20px;
+
+    font-size:90px;
+
+    opacity:.15;
+
+}
+
+@media(max-width:900px){
+
+    .offer-section{
+
+        grid-template-columns:1fr;
+
+    }
+
+}

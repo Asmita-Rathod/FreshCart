@@ -1,0 +1,65 @@
+/* Google Font */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+:root{
+
+    --primary:#FF6B35;
+
+    --secondary:#2ECC71;
+
+    --background:#F7F8FC;
+
+    --white:#FFFFFF;
+
+    --text:#222222;
+
+    --grey:#6B7280;
+
+    --border:#E5E7EB;
+
+    --shadow:0 8px 25px rgba(0,0,0,0.08);
+
+    --radius:15px;
+
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:var(--background);
+
+    color:var(--text);
+
+}
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+button{
+
+    font-family:'Poppins',sans-serif;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+img{
+
+    width:100%;
+
+    display:block;
+
+}
