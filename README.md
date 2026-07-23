@@ -68,7 +68,93 @@ FreshCart/
     ├── routes/
     └── server.js
 ```
+---
 
+# 📸 Screenshots
+
+## 🏠 Home Page
+
+![Home Page](screenshots/home.png)
+
+---
+
+## 🛍️ Products Page
+
+![Products Page](screenshots/products.png)
+
+---
+
+## 📦 Product Details
+
+![Product Details](screenshots/product-details.png)
+
+---
+
+## ❤️ Wishlist
+
+![Wishlist](screenshots/wishlist.png)
+
+---
+
+## 🛒 Shopping Cart
+
+![Shopping Cart](screenshots/cart.png)
+
+---
+
+## 🔐 User Login
+
+![User Login](screenshots/login.png)
+
+---
+
+## 📝 User Registration
+
+![User Registration](screenshots/register.png)
+
+---
+
+## 🔑 Admin Login
+
+![Admin Login](screenshots/admin-login.png)
+
+---
+
+## 📊 Admin Dashboard
+
+![Admin Dashboard](screenshots/admin-dashboard.png)
+
+---
+
+## 📦 Manage Products
+
+![Manage Products](screenshots/manage-products.png)
+
+---
+
+## ➕ Add Product
+
+![Add Product](screenshots/add-product.png)
+
+---
+
+## ✏️ Edit Product
+
+![Edit Product](screenshots/edit-product.png)
+
+---
+
+## 📋 Manage Orders
+
+![Manage Orders](screenshots/manage-orders.png)
+
+---
+
+## 👥 Manage Users
+
+![Manage Users](screenshots/manage-users.png)
+
+---
 ---
 
 ## 🚀 Current Status
