@@ -1,111 +1,136 @@
 # 🛒 FreshCart – Smart Grocery Management System
 
-FreshCart is a modern grocery shopping web application built with **React.js** for the frontend and **Node.js + Express.js** for the backend (currently under development). The project provides a seamless shopping experience for customers along with a dedicated admin dashboard for store management.
+FreshCart is a modern grocery shopping web application built with **React.js**. It provides a seamless shopping experience for customers along with a dedicated Admin Dashboard for managing products, orders, and users.
+
+> **🚧 Project Status:**  
+> The frontend and admin panel are completed. The backend (Node.js, Express.js, MongoDB) is currently under development and will be integrated soon.
 
 ---
 
 ## ✨ Features
 
-### 👤 User Side
+### 👤 User Panel
+- Home Page
+- Product Listing
+- Product Details
+- Search & Filter Products
+- Wishlist
+- Shopping Cart
+- Responsive Design
+- Login & Register UI
 
-* Browse all grocery products
-* Search, filter, and sort products
-* Product details page
-* Shopping cart management
-* Wishlist functionality
-* User Login & Registration UI
-* Responsive design for desktop and mobile
-
-### 👨‍💼 Admin Side
-
-* Secure Admin Login UI
-* Dashboard with statistics and charts
-* Add new products
-* Edit existing products
-* Delete products
-* Manage orders
-* Manage users
-* Protected admin routes
+### 👨‍💼 Admin Panel
+- Admin Login
+- Dashboard
+- Add Product
+- Edit Product
+- Delete Product
+- Manage Products
+- Manage Orders
+- Manage Users
+- Dashboard Charts
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Frontend**
+### Frontend
+- React.js
+- React Router DOM
+- React Toastify
+- React Icons
+- Recharts
+- CSS3
 
-* React.js (Create React App)
-* React Router DOM
-* React Toastify
-* React Icons
-* Recharts
-* CSS3
-
-**Backend (In Progress)**
-
-* Node.js
-* Express.js
-* MongoDB
-* Mongoose
-* JWT Authentication
+### Backend *(In Progress)*
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT Authentication
 
 ---
 
-## 📂 Project Structure
+# 📸 Screenshots
 
-```
-FreshCart/
-│
-├── freshcart-frontend/
-│   ├── src/
-│   ├── public/
-│   └── package.json
-│
-└── freshcart-backend/
-    ├── config/
-    ├── controllers/
-    ├── middleware/
-    ├── models/
-    ├── routes/
-    └── server.js
-```
+## 🏠 Home Page
+
+![Home](screenshots/home.png)
 
 ---
 
-## 🚀 Current Status
+## 🛍️ Products Page
 
-### ✅ Completed
-
-* User Interface
-* Product Catalog
-* Cart & Wishlist
-* Admin Dashboard UI
-* Product CRUD functionality (frontend state)
-* Order Management UI
-* User Management UI
-* Admin Authentication (frontend)
-* Responsive Admin Layout
-
-### 🚧 Backend Pending / Under Development
-
-* MongoDB database connection
-* REST API integration
-* JWT authentication with backend
-* Product image upload API
-* Order processing APIs
-* Connecting frontend with backend services
+![Products](screenshots/products.png)
 
 ---
 
-## 📌 Note
+## ❤️ Wishlist
 
-This repository currently contains the **complete frontend implementation** and the **initial backend structure**. The backend APIs and database integration are being developed and will be connected to the frontend in the next phase of the project.
+![Wishlist](screenshots/wishlist.png)
 
 ---
 
-## 👩‍💻 Author
+## 🛒 Shopping Cart
+
+![Cart](screenshots/cart.png)
+
+---
+
+## 🔑 Admin Login
+
+![Admin Login](screenshots/admin-login.png)
+
+---
+
+## 📊 Admin Dashboard
+
+![Dashboard](screenshots/admin-dashboard.png)
+
+---
+
+## 📦 Manage Products
+
+![Manage Products](screenshots/manage-products.png)
+
+---
+
+## ➕ Add Product
+
+![Add Product](screenshots/add-product.png)
+
+---
+
+## 📋 Manage Orders
+
+![Manage Orders](screenshots/manage-orders.png)
+
+---
+
+## 👥 Manage Users
+
+![Manage Users](screenshots/manage-users.png)
+
+---
+
+## 🚀 Future Enhancements
+
+- Backend API Integration
+- MongoDB Database
+- JWT Authentication
+- Image Upload
+- Order Management
+- Payment Gateway
+- Deployment
+
+---
+
+## 👩‍💻 Developer
 
 **Asmita Rathod**
 
-Information Technology Student | Full Stack Web Development Enthusiast
+Information Technology Student
 
-⭐ If you found this project interesting, consider giving it a **Star** on GitHub!
+---
+
+⭐ If you found this project interesting, don't forget to star this repository!
