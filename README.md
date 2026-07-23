@@ -99,13 +99,13 @@ FreshCart/
 
 ## 🔐 User Login
 
-![User Login](screenshots/login.png)
+![User Login](screenshots/user-login.png)
 
 ---
 
 ## 📝 User Registration
 
-![User Registration](screenshots/register.png)
+![User Registration](screenshots/user-register.png)
 
 ---
 
